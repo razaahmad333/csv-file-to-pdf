@@ -1,0 +1,80 @@
+@import "../../globalVariables";
+
+.home {
+  margin-top: 20px;
+}
+
+.heroImage {
+  // width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.timeForGraphic {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  .icon {
+    font-size: 50px;
+    color: $red;
+  }
+  .csv {
+    position: absolute;
+    top: -10px;
+    left: -140px;
+    .icon {
+      font-size: 130px;
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 120px;
+    left: -60px;
+    .icon {
+      font-size: 70px;
+      opacity: 0.5;
+    }
+  }
+
+  .pdf {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    .icon {
+      font-size: 100px;
+    }
+  }
+}
+
+.header {
+  font-size: 50px;
+  font-weight: bold;
+  color: $red;
+  margin-top: 50px;
+}
+
+.subHeader {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+  color: $red;
+  margin-top: 10px;
+}
+
+.getStarted {
+  margin-top: 100px;
+}
+
+.getStarted a {
+  text-decoration: none;
+  //   color: $red;
+
+  font-size: 30px;
+  font-weight: bold;
+  background-color: $redAlpha;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
